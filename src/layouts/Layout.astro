@@ -1,0 +1,37 @@
+---
+import '../styles/global.css';
+
+const { title = 'Henwell Ltd' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>{title}</title>
+
+  <meta
+    name="description"
+    content="Henwell Ltd — Premium poultry and agricultural supply solutions for the United Kingdom."
+  />
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" href="/favicon.ico" />
+
+</head>
+
+<body class="bg-[#f7f4ef] text-[#0b1d14] antialiased">
+
+  <slot />
+
+</body>
+
+</html>
