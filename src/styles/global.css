@@ -690,7 +690,7 @@ a {
 
   margin-top: 26px;
 
-  font-size: clamp(1.7rem, 2vw, 2.35rem);
+  font-size: clamp(1.3rem, 1.5vw, 1.8rem);
 
   line-height: 1.2;
 
