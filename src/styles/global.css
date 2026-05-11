@@ -450,6 +450,13 @@ a {
     box-shadow .3s ease;
 }
 
+  /* SIZE OF ICONS */
+
+.icon-circle svg {
+  width: 40px;
+  height: 40px;
+}
+
 .contact-item:not(.no-hover):hover .icon-circle {
   transform: scale(1.05);
 
@@ -1038,7 +1045,7 @@ a {
   .hero {
     min-height: 90vh;
 
-    background-position: 82% bottom;
+    background-position: 82% 100%;
   }
 
   .hero-text {
@@ -1056,6 +1063,32 @@ a {
 
   .contact-content strong {
     font-size: 16px;
+  }
+
+  .contact-bar {
+    grid-template-columns: 1fr;
+
+    padding: 26px 22px;
+
+    gap: 22px;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .contact-item {
+    width: 100%;
+
+    justify-content: flex-start;
+
+    padding: 10px 4px;
+  }
+
+  .contact-content strong {
+    font-size: 18px;
+
+    word-break: break-word;
   }
 
   .icon-circle {
