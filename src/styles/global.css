@@ -735,69 +735,7 @@ a {
   }
 }
 
-/* MOBILE */
 
-@media (max-width: 768px) {
-
-  .about {
-    padding:
-      110px
-      0
-      120px;
-
-    min-height: auto;
-
-    background:
-      linear-gradient(
-        180deg,
-        rgba(247,245,241,.985) 0%,
-        rgba(247,245,241,.95) 48%,
-        rgba(247,245,241,.88) 100%
-      ),
-      url('/images/about-henwell-logistics.jpg');
-
-    background-size: cover;
-
-    background-position:
-      68% center;
-  }
-
-  .about-grid {
-    gap: 56px;
-  }
-
-  .section-tag {
-    font-size: 15px;
-
-    letter-spacing: 3px;
-
-    margin-bottom: 24px;
-  }
-
-  .about h2 {
-    font-size: clamp(2.7rem, 11vw, 4rem);
-
-    line-height: 1.14;
-
-    max-width: 320px;
-  }
-
-  .about-copy p {
-    font-size: 1rem;
-
-    line-height: 1.7;
-  }
-
-  .about-copy strong {
-    font-size: 1.55rem;
-  }
-
-  .about-line {
-    margin-top: 34px;
-
-    width: 100px;
-  }
-}
 
 /* TABLET */
 
@@ -870,6 +808,8 @@ a {
 
   .about h2 {
     font-size: clamp(2.7rem, 11vw, 4rem);
+
+    line-height: 1.14;
 
     max-width: 320px;
   }
@@ -1506,3 +1446,65 @@ a {
 .hero-btn-secondary:hover {
   background: rgba(255,255,255,0.14);
 }
+
+```css
+.form-scale {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+
+  transform-origin: top center;
+
+  transition: transform 0.3s ease;
+}
+
+/* Desktop */
+
+@media (max-width: 1599px) {
+
+  .form-scale {
+    transform: scale(0.94);
+    width: 106%;
+    margin-left: -3%;
+  }
+
+}
+
+/* Tablet */
+
+@media (max-width: 1024px) {
+
+  .form-scale {
+    transform: scale(0.86);
+    width: 116%;
+    margin-left: -8%;
+  }
+
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .form-scale {
+    transform: scale(0.78);
+    width: 128%;
+    margin-left: -14%;
+  }
+
+}
+
+
+/* HERO MOBILE */
+
+@media (max-width: 768px) {
+
+  .hero {
+
+    background-position: 78% 100%;
+    background-size: 185%;
+
+  }
+
+}
+
