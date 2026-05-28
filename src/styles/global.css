@@ -703,188 +703,6 @@ a {
   max-width: 620px;
 }
 
-/* TABLET */
-
-@media (max-width: 1200px) {
-
-  .about {
-    padding:
-      130px
-      0
-      140px;
-
-    background-position:
-      72% center;
-  }
-
-  .about-grid {
-    grid-template-columns: 1fr;
-
-    gap: 80px;
-
-    min-height: auto;
-  }
-
-  .about-left,
-  .about-copy {
-    max-width: 100%;
-  }
-
-  .about h2 {
-    max-width: 540px;
-  }
-}
-
-
-
-/* TABLET */
-
-@media (max-width: 1200px) {
-
-  .about {
-    padding:
-      130px
-      0
-      140px;
-
-    background-position:
-      72% center;
-  }
-
-  .about-grid {
-    grid-template-columns: 1fr;
-
-    gap: 80px;
-  }
-
-  .about-left,
-  .about-copy {
-    max-width: 100%;
-  }
-
-  .about h2 {
-    max-width: 540px;
-  }
-}
-
-/* MOBILE */
-
-@media (max-width: 768px) {
-
-  .about {
-    padding:
-      110px
-      0
-      120px;
-
-    min-height: auto;
-
-    background:
-      linear-gradient(
-        180deg,
-        rgba(247,245,241,.985) 0%,
-        rgba(247,245,241,.95) 48%,
-        rgba(247,245,241,.88) 100%
-      ),
-      url('/images/about-henwell-logistics.jpg');
-
-    background-size: cover;
-
-    background-position:
-      68% center;
-  }
-
-  .about-grid {
-    gap: 56px;
-  }
-
-  .section-tag {
-    font-size: 15px;
-
-    letter-spacing: 3px;
-
-    margin-bottom: 24px;
-  }
-
-  .about h2 {
-    font-size: clamp(2.7rem, 11vw, 4rem);
-
-    line-height: 1.14;
-
-    max-width: 320px;
-  }
-
-  .about-copy p {
-    font-size: 1rem;
-
-    line-height: 1.7;
-  }
-
-  .about-copy strong {
-    font-size: 1.55rem;
-  }
-
-  .about-line {
-    margin-top: 34px;
-
-    width: 100px;
-  }
-}
-
-/* RESPONSIVE */
-
-@media (max-width: 1200px) {
-
-  .about {
-    background-position: 72% center;
-  }
-
-  .about-grid {
-    grid-template-columns: 1fr;
-
-    gap: 70px;
-  }
-
-  .about h2 {
-    max-width: 100%;
-  }
-
-  .about-copy p,
-  .about-copy strong {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-
-  .about {
-    padding: 110px 0 90px;
-
-    min-height: auto;
-
-    background-position: 78% center;
-  }
-
-  .section-tag {
-    font-size: 15px;
-
-    letter-spacing: 3px;
-  }
-
-  .about h2 {
-    font-size: clamp(2.1rem, 8vw, 3rem);
-  }
-
-  .about-copy p {
-    font-size: 16px;
-
-    line-height: 1.7;
-  }
-
-  .about-copy strong {
-    font-size: 22px;
-  }
-}
 
 /* ANIMATIONS */
 
@@ -953,25 +771,7 @@ a {
   pointer-events: none;
 }
 
-/* mobile */
-@media (max-width: 1200px) {
 
-  .about-globe {
-    position: relative;
-
-    right: auto;
-    top: auto;
-
-    transform: none;
-
-    max-width: 280px;
-
-    margin-inline: auto;
-
-    opacity: .18;
-  }
-
-}
 
 .about-content,
 .about-text,
@@ -980,75 +780,6 @@ a {
   z-index: 2;
 }
 
-@media (max-width: 640px) {
-
-  .hero {
-    min-height: 90vh;
-
-    background-position: 82% 100%;
-  }
-
-  .hero-text {
-    font-size: 16px;
-  }
-
-  .hero-btn {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .trust-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .contact-content strong {
-    font-size: 16px;
-  }
-
-  .contact-bar {
-    grid-template-columns: 1fr;
-
-    padding: 26px 22px;
-
-    gap: 22px;
-  }
-
-  .divider {
-    display: none;
-  }
-
-  .contact-item {
-    width: 100%;
-
-    justify-content: flex-start;
-
-    padding: 10px 4px;
-  }
-
-  .contact-content strong {
-    font-size: 18px;
-
-    word-break: break-word;
-  }
-
-  .icon-circle {
-    width: 68px;
-    height: 68px;
-
-    min-width: 68px;
-
-    min-width: 68px;
-  }
-
-  .icon-circle svg {
-    width: 30px;
-    height: 30px;
-  }
-
-  .hero h1 {
-    line-height: 1;
-  }
-}
 
 /* FOOTER */
 
@@ -1296,85 +1027,7 @@ a {
     rgba(0,0,0,.10);
 }
 
-/* TABLET */
 
-@media (max-width: 1100px) {
-
-  .footer-grid {
-    grid-template-columns: 1fr;
-
-    gap: 54px;
-
-    padding:
-      74px
-      0
-      64px;
-  }
-
-  .footer-divider {
-    display: none;
-  }
-
-  .footer-logo {
-    width: 195px;
-  }
-
-  .footer-brand,
-  .footer-address,
-  .footer-contact {
-    max-width: 100%;
-  }
-}
-
-/* MOBILE */
-
-@media (max-width: 768px) {
-
-  .footer-grid {
-    gap: 42px;
-
-    padding:
-      58px
-      0
-      52px;
-  }
-
-  .footer-logo {
-    width: 180px;
-
-    margin-bottom: 26px;
-  }
-
-  .footer-brand p,
-  .footer-address p,
-  .footer-contact a {
-    font-size: 1rem;
-
-    line-height: 1.8;
-  }
-
-  .footer-address h4,
-  .footer-contact h4 {
-    font-size: 1.08rem;
-
-    margin-bottom: 24px;
-  }
-
-  .footer-contact span {
-    width: 52px;
-    height: 52px;
-
-    font-size: 1.7rem;
-  }
-
-  .footer-bottom {
-    font-size: .88rem;
-
-    padding:
-      26px
-      16px;
-  }
-}
 
 .onboarding-hero {
   background: #f5f4ef;
@@ -1458,55 +1111,324 @@ a {
   transition: transform 0.3s ease;
 }
 
-/* Desktop */
+
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+  .hero {
+    background-position: 85% 50%;
+    background-size: 375%;
+  }
+
+  .about {
+    padding: 110px 0 90px;
+
+    min-height: auto;
+
+    background:
+      linear-gradient(
+        180deg,
+        rgba(247,245,241,.985) 0%,
+        rgba(247,245,241,.95) 48%,
+        rgba(247,245,241,.88) 100%
+      ),
+      url('/images/about-henwell-logistics.jpg');
+
+    background-size: cover;
+
+    background-position: 78% center;
+  }
+
+  .about-grid {
+    gap: 56px;
+  }
+
+  .section-tag {
+    font-size: 15px;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 24px;
+  }
+
+  .about h2 {
+    font-size: clamp(2.1rem, 8vw, 3rem);
+
+    line-height: 1.14;
+
+    max-width: 320px;
+  }
+
+  .about-copy p {
+    font-size: 16px;
+
+    line-height: 1.7;
+  }
+
+  .about-copy strong {
+    font-size: 22px;
+  }
+
+  .about-line {
+    margin-top: 34px;
+
+    width: 100px;
+  }
+
+  .footer-grid {
+    gap: 42px;
+
+    padding: 58px 0 52px;
+  }
+
+  .footer-logo {
+    width: 180px;
+
+    margin-bottom: 26px;
+  }
+
+  .footer-brand p,
+  .footer-address p,
+  .footer-contact a {
+    font-size: 1rem;
+
+    line-height: 1.8;
+  }
+
+  .footer-address h4,
+  .footer-contact h4 {
+    font-size: 1.08rem;
+
+    margin-bottom: 24px;
+  }
+
+  .footer-contact span {
+    width: 52px;
+    height: 52px;
+
+    font-size: 1.7rem;
+  }
+
+  .footer-bottom {
+    font-size: .88rem;
+
+    padding: 26px 16px;
+  }
+
+  .form-scale {
+    transform: scale(0.78);
+
+    width: 128%;
+
+    margin-left: -14%;
+  }
+}
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 640px) {
+
+  .hero {
+    min-height: 90vh;
+
+    background-position: 82% 100%;
+  }
+
+  .hero-text {
+    font-size: 16px;
+  }
+
+  .hero-btn {
+    width: 100%;
+
+    justify-content: center;
+  }
+
+  .trust-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-bar {
+    grid-template-columns: 1fr;
+
+    padding: 26px 22px;
+
+    gap: 22px;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .contact-item {
+    width: 100%;
+
+    justify-content: flex-start;
+
+    padding: 10px 4px;
+  }
+
+  .contact-content strong {
+    font-size: 18px;
+
+    word-break: break-word;
+  }
+
+  .icon-circle {
+    width: 68px;
+    height: 68px;
+
+    min-width: 68px;
+  }
+
+  .icon-circle svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .hero h1 {
+    line-height: 1;
+  }
+}
+
+/* =========================================
+   DESKTOP RESPONSIVE
+========================================= */
 
 @media (max-width: 1599px) {
 
   .form-scale {
     transform: scale(0.94);
+
     width: 106%;
+
     margin-left: -3%;
   }
-
 }
 
-/* Tablet */
+/* =========================================
+   TABLET LARGE
+========================================= */
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
+
+  .about {
+    padding: 130px 0 140px;
+
+    background-position: 72% center;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+
+    gap: 70px;
+
+    min-height: auto;
+  }
+
+  .about-left,
+  .about-copy,
+  .about-copy p,
+  .about-copy strong {
+    max-width: 100%;
+  }
+
+  .about h2 {
+    max-width: 100%;
+  }
+
+  .about-globe {
+    position: relative;
+
+    right: auto;
+    top: auto;
+
+    transform: none;
+
+    max-width: 280px;
+
+    margin-inline: auto;
+
+    opacity: .18;
+  }
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1100px) {
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+
+    gap: 54px;
+
+    padding: 74px 0 64px;
+  }
+
+  .footer-divider {
+    display: none;
+  }
+
+  .footer-logo {
+    width: 195px;
+  }
+
+  .footer-brand,
+  .footer-address,
+  .footer-contact {
+    max-width: 100%;
+  }
+}
+
+/* =========================================
+   TABLET SMALL
+========================================= */
+
+
+
+/* TABLET */
+
+@media (max-width: 1100px) {
 
   .form-scale {
-    transform: scale(0.86);
-    width: 116%;
-    margin-left: -8%;
-  }
 
-}
+    zoom: 0.88;
 
-/* Mobile */
+    transform-origin: top center;
 
-@media (max-width: 768px) {
+    width: 114%;
 
-  .form-scale {
-    transform: scale(0.78);
-    width: 128%;
-    margin-left: -14%;
-  }
-
-}
-
-
-/* HERO MOBILE */
-
-@media (max-width: 768px) {
-
-  .hero {
-
-    background-position: 85% 50%;
-    background-size: 375%;
-
+    margin-left: -7%;
 
   }
 
 }
 
+@supports not (zoom: 1) {
 
+  @media (max-width: 1100px) {
+
+    .form-scale {
+
+      transform: scale(0.88);
+
+      transform-origin: top center;
+
+      width: 114%;
+
+      margin-bottom: -240px;
+
+    }
+
+  }
+
+}
