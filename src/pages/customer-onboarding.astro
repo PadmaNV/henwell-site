@@ -1,3 +1,9 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Customer Onboarding | Henwell Ltd">
+
 <section class="onboarding-form">
   <div class="container">
 
@@ -14,7 +20,8 @@
 
             f.src = ifrmSrc;
             f.style.border = "none";
-            f.style.minHeight = "2200px";
+            // Initial height until Zoho reports the real one via postMessage below.
+            f.style.height = window.innerWidth <= 768 ? "1900px" : "1100px";
             f.style.width = "100%";
             f.style.background = "transparent";
             f.style.transition = "all 0.5s ease";
@@ -56,4 +63,5 @@
 
   </div>
 </section>
-```
+
+</Layout>
